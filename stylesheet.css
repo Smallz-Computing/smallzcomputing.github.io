@@ -1,15 +1,20 @@
 
 /* Properties of BODY*/
 body {
-    background-color: #555a5b;
+    background-color: #515352;
 }
 
 /* Properties of Header 1 */
 h1, h2, h3, h4, p {
     
-    font-family: Verdana;
+    font-family: sans-serif;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+}
+
+h2.headertext{
+    padding-left: 2%;
+    padding-top: 1%;
 }
 
 p {
@@ -17,18 +22,46 @@ p {
     text-indent: 30px;
 }
 
+a {
+    
+text-decoration: none;
+color: #0fc6f5;
+
+}
 
 /* Properties of <a class="button"> */
 a.button{
     
-    background-color: #0fc6f5;
+  background-color: #0fc6f5;
   color: white;
   padding: 18px;
-  font-family: Verdana;
+  font-family: sans-serif;
   font-size: 24px;
-  text-decoration: none;
   border: none;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px #064252;
     
+}
+
+.summarytext{
+
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+
+h3.listingheader{
+    position:relative;
+    padding-top: 2%;
+    padding-left: 48%;
+}
+
+.listingimg{
+    
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    padding-left: 50%;
 }
 
 /* Change color when hovered over for <a class="button"> */
@@ -39,12 +72,14 @@ a.button:hover{
 
 /* Dropdown Button */
 .dropbtn {
+  text-shadow: 2px 2px 4px #000000;
   background-color: #0fc6f5;
   color: white;
   padding: 18px;
-  font-family: Verdana;
+  font-family: sans-serif;
   font-size: 24px;
   border: none;
+  box-shadow: 2px 2px #064252;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -58,7 +93,7 @@ a.button:hover{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  font-family: Verdana;
+  font-family: sans-serif;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
