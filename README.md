@@ -1,2 +1,0 @@
-# smallzcomputing.github.io
-Website
