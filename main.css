@@ -3,6 +3,10 @@ body {
     background-color: #1a1a1a;
 }
 
+.banner{
+    display: inline;
+}
+
 /* Properties of Header 1 */
 h1, h2, h3, h4, p {
     
@@ -69,6 +73,14 @@ a.button:hover{
     background-color: #1885a1;
 }
 
+
+.menu 
+{
+    display: inline-flex;
+    position: absolute;
+    top: 20%;
+    left: 15px;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -151,7 +163,7 @@ a.button{
     
   background-color: #0fc6f5;
   color: white;
-  padding: 18px;
+  padding: 16px;
   font-family: sans-serif;
   font-size: 24px;
   border: none;
@@ -162,8 +174,7 @@ a.button{
 
 .summarytext{
 
-    padding-left: 10%;
-    padding-top: 5%;
+    padding-left: 15%;
     
 }
 
@@ -192,7 +203,7 @@ a.button:hover{
   text-shadow: 2px 2px 4px #000000;
   background-color: #0fc6f5;
   color: white;
-  padding: 18px;
+  padding: 16px;
   font-family: sans-serif;
   font-size: 24px;
   border: none;
